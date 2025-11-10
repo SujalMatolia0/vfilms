@@ -1,9 +1,11 @@
 @import "tailwindcss";
-@import "@fontsource/island-moments"; 
-@import '@fontsource/halant';
+@import "@fontsource/island-moments";
+@import "@fontsource/halant";
+@import "@fontsource/instrument-sans";
+
 
 body {
-  background-image: url('./assets/images/pink-background.jpg');
+  background-image: url('/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,4 +19,7 @@ body {
 }
 .halant {
   font-family: 'Halant', serif;
+}
+.instrument-sans {
+  font-family: 'Instrument Sans', sans-serif;
 }
